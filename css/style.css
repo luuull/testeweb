@@ -1,0 +1,584 @@
+/* para limpar formatações padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+#banner{
+    position: absolute;
+    max-width: 100%;
+    width: 1440px;
+    height: 621px;
+    left: 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.title{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    max-width: 100%;
+    width: 696px;
+    height: 240px;
+    left: 167px;
+    top: 180px;
+}
+
+.exclusive{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 273px;
+    top: 702px;
+}
+
+.scissor{
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 640px;
+    top: 40px;
+}
+
+.trat{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #CC6868;
+    position: absolute;
+    max-width: 100%;
+    width: 408px;
+    height: 80px;
+    left: 480px;
+    top: 140px;
+}
+
+.trat2{
+    
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #232323;
+    position: absolute;
+    max-width: 100%;
+    width: 445px;
+    height: 100px;
+    left: 460px;
+    top: 260px;
+}
+
+.bem{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 1198px;
+    left: 0;
+}
+
+.bem2{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #232323;
+    position: absolute;
+    width: 338px;
+    height: 80px;
+    left: 552px;
+    top: 1282px;
+}
+
+.bem3{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #232323;
+    position: absolute;
+    width: 415px;
+    height: 151px;
+    left: 513px;
+    top: 1388px;
+}
+
+.chair{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 397px;
+    top: 1720px;
+}
+
+.espaco{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #CC6868;
+    position: absolute;
+    width: 218px;
+    height: 40px;
+    left: 328px;
+    top: 1819px;
+}
+
+.espaco2{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #232323;
+    position: absolute;
+    width: 332px;
+    height: 125px;
+    left: 271px;
+    top: 1878px;
+}
+
+.video{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 679px;
+    top: 1704px;
+}
+
+.play{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 902px;
+    top: 1833px;
+}
+
+.servico{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #CC6868;
+    position: absolute;
+    width: 263px;
+    height: 40px;
+    left: 589px;
+    top: 2158px;
+}
+
+.servico2{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #232323;
+    position: absolute;
+    width: 601px;
+    height: 25px;
+    left: 420px;
+    top: 2225px;
+}
+
+.corte{
+    position: absolute;
+    width: 119.56px;
+    height: 119.56px;
+    left: 232.72px;
+    top: 2283.55px;
+}
+
+.corte2{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #CC6868;
+    position: absolute;
+    width: 69.83px;
+    height: 28.57px;
+    left: 257.05px;
+    top: 2420.04px;
+}
+
+.corte3{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #232323;
+    position: absolute;
+    width: 212.68px;
+    height: 69.83px;
+    left: 186.16px;
+    top: 2461.31px;
+}
+
+.corte4{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #CC6868;
+    position: absolute;
+    width: 108.98px;
+    height: 42.32px;
+    left: 238.01px;
+    top: 2537.49px;
+}
+
+.hidra{
+    position: absolute;
+    width: 119.56px;
+    height: 119.56px;
+    left: 517.72px;
+    top: 2283.55px;
+}
+
+.hidra2{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #CC6868;
+    position: absolute;
+    width: 133.32px;
+    height: 28.57px;
+    left: 510.31px;
+    top: 2420.04px;
+}
+
+.hidra3{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    position: absolute;
+    width: 212.68px;
+    height: 69.83px;
+    left: 471.16px;
+    top: 2461.31px;
+}
+
+.hidra4{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #CC6868;
+    position: absolute;
+    width: 108.98px;
+    height: 42.32px;
+    left: 523.01px;
+    top: 2537.49px;
+}
+
+.unhas{
+    position: absolute;
+    width: 119.56px;
+    height: 119.56px;
+    left: 802.72px;
+    top: 2283.55px;
+}
+
+.unhas2{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #CC6868;
+    position: absolute;
+    width: 70.89px;
+    height: 28.57px;
+    left: 827.05px;
+    top: 2420.04px;
+}
+
+.unhas3{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    position: absolute;
+    width: 212.68px;
+    height: 69.83px;
+    left: 756.16px;
+    top: 2461.31px;
+}
+
+.unhas4{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #CC6868;
+    position: absolute;
+    width: 108.98px;
+    height: 42.32px;
+    left: 808.01px;
+    top: 2537.49px;
+}
+
+.skin{
+    position: absolute;
+    width: 119.1px;
+    height: 119.1px;
+    left: 1088.45px;
+    top: 2284.15px;
+    }
+
+.skin2{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #CC6868;
+    position: absolute;
+    width: 101.18px;
+    height: 28.46px;
+    left: 1097.94px;
+    top: 2420.11px;
+}
+
+.skin3{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    position: absolute;
+    width: 211.84px;
+    height: 69.56px;
+    left: 1042.08px;
+    top: 2461.21px;
+}
+
+.skin4{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #CC6868;
+    position: absolute;
+    width: 108.56px;
+    height: 42.16px;
+    left: 1093.72px;
+    top: 2537.1px;
+}
+
+.mapa{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 2642px;
+}
+
+.bg-contato{
+    position: absolute;
+    width: 850px;
+    height: 178px;
+    left: 305px;
+    top: 3295px;
+    background-image: url(/assets/bg-contato.png);
+}
+
+.contato{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 650px;
+    top: 3305px;
+} 
+
+.fone{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 398px;
+    top: 3370px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.fone2{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 79px;
+    height: 21px;
+    left: 420px;
+    top: 3370px;
+}
+
+.fone3{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 94px;
+    height: 22px;
+    left: 415px;
+    top: 3395px;
+    white-space: nowrap
+}
+
+.end{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 82px;
+    height: 21px;
+    left: 688px;
+    top: 3365px;
+}
+
+.end2{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 84px;
+    height: 22px;
+    left: 680px;
+    top: 3395px;
+    white-space: nowrap
+}
+
+.end3{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    left: 685px;
+    top: 3415px;
+    white-space: nowrap
+}
+
+.mail{
+    font-family: 'Playfair Display SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 967px;
+    top: 3365px;
+}
+
+.mail1{
+    font-family: 'Encode Sans Condensed', 'Open Sans Condensed Light', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 110px;
+    height: 22px;
+    left: 928px;
+    top: 3395px;
+    white-space: nowrap
+}
+
+.rodape{
+    background-image: url(/assets/bg-rodape.png);
+    position: absolute;
+    max-width: 100%;
+    width: 1440px;
+    top: 3497px;
+    left: 0;
+    padding: 0;
+}
+    
+.rodape2{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 62,5%;
+    height: auto;
+    left: 554px;
+    top: 3521px;
+}
